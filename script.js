@@ -11,6 +11,6 @@ const weeksday= ['Thứ Hai','Thứ Ba','Thứ Tư','Thứ Năm','Thứ Sáu','T
 
 date.innerHTML= (today.getDate()<10 ? '0' : '') + today.getDate();
 day.innerHTML= weeksday[today.getDay()];
-month.innerHTML= `Tháng ${today.getMonth()}`;
+month.innerHTML= `Tháng ${today.getMonth()+1}`;
 year.innerHTML= today.getFullYear();
 
